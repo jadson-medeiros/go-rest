@@ -9,8 +9,8 @@ import (
 
 func main() {
 	models.Personalities = []models.Personality{
-		{Name: "Name One", About: "About One"},
-		{Name: "Name Two", About: "About two"},
+		{Id: 1, Name: "Name One", About: "About One"},
+		{Id: 2, Name: "Name Two", About: "About two"},
 	}
 
 	fmt.Println("Server started")
